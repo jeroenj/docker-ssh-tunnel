@@ -1,4 +1,4 @@
-FROM alpine:3.21
+FROM alpine:3.22
 
 RUN apk add --update --no-cache autossh && \
     addgroup -S -g 987 tunnel && \
